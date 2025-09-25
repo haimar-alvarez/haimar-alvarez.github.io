@@ -3,7 +3,8 @@ site_author: Haimar
 site_url: https://haimar-alvarez.github.io
 
 theme:
-  name: readthedocs  # Prueba: material, mkdocs, readthedocs
+  name: material  
+  color_mode: dark
   
 nav:
   - Inicio: index.md
