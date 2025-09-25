@@ -3,8 +3,23 @@ site_author: Haimar
 site_url: https://haimar-alvarez.github.io
 
 theme:
-  name: mkdocs  # no he sido capaz de uno diferente
-
+  name: material 
+  palette:
+    - scheme: default
+      primary: teal
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro 
+  logo: assets/person_110935.ico
+  favicon: assets/person_110935.ico
+  
 nav:
   - Inicio: index.md
   - Sobre Mí: sobre-mi.md
