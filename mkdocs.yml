@@ -3,9 +3,8 @@ site_author: Haimar
 site_url: https://haimar-alvarez.github.io
 
 theme:
-  name: material  
-  color_mode: dark
-  
+  name: mkdocs  # no he sido capaz de uno diferente
+
 nav:
   - Inicio: index.md
   - Sobre Mí: sobre-mi.md
